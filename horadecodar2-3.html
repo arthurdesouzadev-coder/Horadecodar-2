@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+
+        const numero1 = Number(prompt("Digite o primeiro número:"));
+        const numero2 = Number(prompt("Digite o segundo número:"));
+        const numero3 = Number(prompt("Digite o terceiro número:"));
+
+        // Como não existem valores iguais, basta comparar:
+       
+if (numero1 === numero2 || numero1 === numero3 || numero2 === numero3) {
+alert ("Erro! Digite números diferentes")
+}
+
+        else if (numero1 > numero2 && numero1 > numero3) {
+            alert("O maior valor é " + numero1);
+        } else if (numero2 > numero1 && numero2 > numero3) {
+            alert("O maior valor é " + numero2);
+        } else {
+            alert("O maior valor é " + numero3);
+        }
+
+
+
+    </script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+     let a = Number(prompt("Digite o primeiro valor:"));
+let b = Number(prompt("Digite o segundo valor:"));
+let c = Number(prompt("Digite o terceiro valor:"));
+
+let valores = [a, b, c];
+valores.sort((x, y) => y - x); // ordena decrescente
+let soma = valores[0] + valores[1];
+
+alert("A soma dos dois maiores é: " + soma);
+    </script>
+</body>
+</html>

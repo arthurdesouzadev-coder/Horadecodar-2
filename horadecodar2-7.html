@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let numeros = [];
+for (let i = 0; i < 6; i++) {
+  numeros.push(Number(prompt(`Digite o número ${i+1}:`)));
+}
+let soma = numeros.filter(n => n < 72).reduce((acc, n) => acc + n, 0);
+
+alert("Números informados: " + numeros.join(", "));
+alert("Soma dos menores que 72: " + soma);
+    </script>
+    
+</body>
+</html>

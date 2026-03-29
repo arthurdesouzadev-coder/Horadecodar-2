@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let n1 = Number(prompt("Digite o primeiro valor:"));
+let n2 = Number(prompt("Digite o segundo valor:"));
+let operacao = Number(prompt("Escolha a operação: 1-Adição, 2-Subtração, 3-Divisão, 4-Multiplicação"));
+
+let resultado;
+switch (operacao) {
+  case 1:
+    resultado = n1 + n2;
+    break;
+  case 2:
+    resultado = n1 - n2;
+    break;
+  case 3:
+    resultado = n1 / n2;
+    break;
+  case 4:
+    resultado = n1 * n2;
+    break;
+  default:
+    alert("Operação inválida!");
+}
+
+if (resultado !== undefined) {
+  alert("Resultado: " + resultado);
+}
+    </script>
+    
+
+</body>
+</html>
